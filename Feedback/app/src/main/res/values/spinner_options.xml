@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="spinner_options">
+        <item>Review</item>
+        <item>Suggestion</item>
+        <item>Bug</item>
+        <item>Other</item>
+    </string-array>
+</resources>

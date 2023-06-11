@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="sort_options">
+        <item name="id">ID</item>
+        <item name="date">Date</item>
+        <item name="user_name">Name</item>
+        <item name="rating">Rating</item>
+    </string-array>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/feedback_item_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_text_field_white"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="15dp"
+        android:orientation="horizontal"
+      >
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            >
+
+    <TextView
+        android:id="@+id/feedback_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:text="@string/_333" />
+    <TextView
+        android:id="@+id/feedback_date"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textSize="14sp"
+        android:layout_toEndOf="@id/feedback_id"
+        android:textColor="@color/grey"
+
+        android:text="@string/_20_02_2020" />
+    <TextView
+        android:id="@+id/feedback_user"
+        android:textColor="@color/darkerGrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedback_id"
+        android:layout_marginBottom="5dp"
+        android:textSize="18sp"
+        android:text="@string/by_anna" />
+    <TextView
+        android:id="@+id/feedback_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_text_field_blue"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="2dp"
+        android:layout_below="@id/feedback_user"
+        android:text="@string/bug" />
+    <TextView
+        android:id="@+id/feedback_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_text_field"
+        android:textColor="@color/darkerGrey"
+        android:textSize="15sp"
+        android:layout_toEndOf="@id/feedback_type"
+        android:paddingHorizontal="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingVertical="2dp"
+        android:layout_below="@id/feedback_user"
+        android:text="@string/_3_0" />
+        </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/delete_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_trash"
+        android:layout_gravity="center"
+        android:contentDescription="@string/trash_icon" />
+    </LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid
+        android:color="@color/blue"/>
+
+    <size
+        android:width="120dp"
+        android:height="120dp"/>
+</shape>
+
+<!--
+Arefin (2012). How to define a circle shape in an Android XML drawable file?. Stack Overflow.
+Available from: https://stackoverflow.com/questions/3185103/how-to-define-a-circle-shape-in-an-android-xml-drawable-file
+[Accessed 10 December 2020]
+-->

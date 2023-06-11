@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.feedback.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_writefeedback"
+        android:name="com.example.feedback.WriteFeedbackFragment"
+        android:label="Write feedback"
+        tools:layout="@layout/fragment_writefeedback" />
+    <fragment
+        android:id="@+id/nav_feedbackslist"
+        android:name="com.example.feedback.FeedbacksListFragment"
+        android:label="All Feedbacks"
+        tools:layout="@layout/fragment_feedbackslist" />
+    <fragment
+        android:id="@+id/nav_joke"
+        android:name="com.example.feedback.JokeFragment"
+        android:label="Chuck Norris jokes"
+        tools:layout="@layout/fragment_joke" />
+</navigation>

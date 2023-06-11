@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/white"
+    tools:context=".WriteFeedbackFragment">
+
+    <TextView
+        android:id="@+id/writeFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fredoka_one"
+        android:text="@string/write_feedback"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_text_field"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/tell_me_your_name"
+        android:textColor="@color/darkerGrey"
+        android:layout_below="@id/writeFeedback"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:textColorHint="@color/grey"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/userMessage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="top"
+        android:textColor="@color/darkerGrey"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/say_what_you_think_about_this_app"
+        android:textColorHint="@color/grey"
+        android:layout_below="@id/userName"
+        android:inputType="textMultiLine"
+        android:background="@drawable/rounded_text_field"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:layout_marginBottom="12dp"
+        android:importantForAutofill="no" />
+    <TextView
+        android:id="@+id/detailsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/today_s_date_and_feedback_type"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/userMessage"/>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/detailsText"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:layout_weight="5"
+            android:textColor="@color/darkerGrey"
+            android:background="@drawable/rounded_text_field"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
+            android:hint="@string/today_s_date"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/montserrat"
+            android:clickable="true"
+            android:importantForAutofill="no"
+            android:focusable="true" />
+
+        <Spinner
+            android:id="@+id/feedbackType"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_text_field_blue"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
+
+            android:overlapAnchor="false"
+            android:spinnerMode="dropdown"
+            android:entries="@array/spinner_options"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/ratingBarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/what_is_you_experience_so_far" />
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:stepSize=".5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ratingBarText"
+        style="@style/CustomRatingBarStyle"
+        />
+
+    <Button
+        android:id="@+id/sendFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/send_feedback"
+        android:background="@drawable/rounded_text_field_blue"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="12dp"
+        android:textSize="18sp"
+        android:layout_below="@id/ratingBar"
+        android:fontFamily="@font/montserrat"
+/>
+
+
+</RelativeLayout>
+</ScrollView>

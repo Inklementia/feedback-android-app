@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGrey"
+    android:orientation="vertical"
+    tools:context=".FeedbacksListFragment">
+
+    <ListView
+        android:id="@+id/feedbacks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="10dp"
+        android:scrollbars="none"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true">
+
+
+    </ListView>
+    <TextView
+        android:id="@+id/noFeedbacks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/there_is_no_feedback_yet">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/writeFeedbackFromList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:text="@string/wanna_write_one" />
+
+</LinearLayout>

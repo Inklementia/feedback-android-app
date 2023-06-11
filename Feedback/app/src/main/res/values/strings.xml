@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Feedback App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Feedback App</string>
+    <string name="nav_header_subtitle">Very simple yet neatly looking app</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="write_feedback">Write Feedback</string>
+    <string name="say_what_you_think_about_this_app">Say what you think about this app</string>
+    <string name="tell_me_your_name">Tell me your name</string>
+    <string name="today_s_date_and_feedback_type">Today\'s date and feedback type</string>
+    <string name="today_s_date">Today\'s date</string>
+    <string name="feedback_app">Feedback App</string>
+    <string name="plus_sign">Plus sign</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feedback_333">Feedback #333</string>
+    <string name="_2020_20_20">2020.20.20</string>
+    <string name="long_text_of_feedback_body_long_text_of_feedback_body_long_text_of_feedback_body">Long text of feedback body. Long text of feedback body. Long text of feedback body</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="x_3_5">x 3.5</string>
+    <string name="back_to_list">Back To List</string>
+    <string name="by_anna">By Anna</string>
+    <string name="cookie_icon">Cookie icon</string>
+    <string name="pencil_icon">Pencil icon</string>
+    <string name="trash_icon">Trash icon</string>
+    <string name="this_a_very_simple_feedback_app">This a very simple feedback app</string>
+    <string name="view_all_feedbacks">View all feedbacks</string>
+    <string name="write_a_feedback">Write a feedback</string>
+    <string name="welcome">Welcome!</string>
+    <string name="cat_on_pc_image">Cat on PC image</string>
+    <string name="exit">Exit App</string>
+    <string name="random_joke_text">Random Joke text</string>
+    <string name="chuck_norris_baner">Chuck Norris Baner</string>
+    <string name="random_joke">Random Joke</string>
+    <string name="androchunk">Androchunk</string>
+    <string name="select">Select</string>
+    <string name="background_image_with_hills_and_star">Background Image with hills and star</string>
+    <string name="home">Home</string>
+    <string name="all_feedbacks">All Feedbacks</string>
+    <string name="chuck_norris_jokes">Chuck Norris jokes</string>
+    <string name="what_is_you_experience_so_far">What is you experience so far?</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="_3_0">3.0</string>
+    <string name="bug">Bug</string>
+    <string name="_20_02_2020">20.02.2020</string>
+    <string name="_333">#333</string>
+    <string name="wanna_write_one">Wanna write one?</string>
+    <string name="there_is_no_feedback_yet">There is no feedback yet</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="sort_order_options">
+        <item>DESC</item>
+        <item>ASC</item>
+    </string-array>
+</resources>
