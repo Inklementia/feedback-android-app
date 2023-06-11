@@ -1,2 +1,2 @@
-# feedback-android-app
+# Feedback Android App
 Coursework for MAD module
